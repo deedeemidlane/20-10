@@ -42,6 +42,7 @@ body {
     /* Add subtle shadow to images */
     border: 6px solid #fff;
     /* Add white border to the images */
+    z-index: 2;
 }
 
 .top-left {
@@ -221,4 +222,23 @@ body {
 .button-77:disabled {
     cursor: default;
     opacity: .24;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .top-left {
+        left: 60px;
+    }
+
+    .top-right {
+        right: 60px;
+    }
+
+    .bottom-left {
+        left: 60px;
+    }
+
+    .bottom-right {
+        right: 60px;
+    }
 }
